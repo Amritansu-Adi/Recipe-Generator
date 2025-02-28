@@ -1,19 +1,36 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Recipe Generator - Chef Claude 🍽️
+Welcome to Chef Claude, a smart recipe generator web app powered by AI! 🧑‍🍳✨
+Simply enter ingredients, and let Chef Claude suggest delicious recipes for you.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+🚀 Getting Started
+Follow these steps to set up and run the project on your local machine.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+1️⃣ Clone the Repository
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+# git clone https://github.com/Amritansu-Adi/Recipe-Generator.git
+# cd Recipe-Generator
+2️⃣ Install Dependencies
+Make sure you have Node.js installed, then run:
 
-Happy Coding!
+
+# npm install
+3️⃣ Create an API Key on Hugging Face
+Go to Hugging Face and create an account if you don’t have one.
+Navigate to Settings > Access Tokens and generate a new API key.
+Copy the key for the next step.
+4️⃣ Configure Environment Variables
+Create a .env file in the root directory and add the following:
+
+# VITE_RECIPE_API=your_huggingface_api_key_here
+▶️ Run the Project
+Once everything is set up, start the development server:
+
+
+# npm run dev
+The app will be available at http://localhost:5173/ (or the port specified in your terminal).
+
+🛠 Build for Production
+To create an optimized production build, run:
+
+
+# npm run build
