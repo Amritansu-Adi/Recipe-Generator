@@ -9,8 +9,8 @@ Follow these steps to set up and run the project on your local machine.
 sh
 Copy
 Edit
-git clone https://github.com/your-username/recipe-generator-chef-claude.git
-cd recipe-generator-chef-claude
+git clone https://github.com/Amritansu-Adi/Recipe-Generator
+cd Recipe-Generator
 2️⃣ Install Dependencies
 Make sure you have Node.js installed, then run:
 
