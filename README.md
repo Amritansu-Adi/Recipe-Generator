@@ -1,5 +1,3 @@
-and then add it to a .env file with name VITE_RECIPE_API
-ChatGPT said:
 Recipe Generator - Chef Claude 🍽️
 Welcome to Chef Claude, a smart recipe generator web app powered by AI! 🧑‍🍳✨
 Simply enter ingredients, and let Chef Claude suggest delicious recipes for you.
